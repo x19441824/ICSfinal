@@ -2,36 +2,36 @@
 <html lang=“en”>
 
 <head> 
-	<link rel="stylesheet" href="Wfg.css"> <! Link to stylesheet so the webpage has its customisation>
+	<link rel="stylesheet" href="Wfg.css"> <!--Link to stylesheet so the webpage has its customisation-->
 	
-	<! Javascript that handles the form at the end of the webpage>
+	<!--Javascript that handles the form at the end of the webpage-->
 	<script>  
 	function validateForm() { 
   let x = document.forms["myForm"]["fname"].value;
   if (x == "") {
     alert("Name must be filled out");
-    return false; // Validation for the name Variable. This ensures that the User must enter their name.
+    return false; //Validation for the name Variable. This ensures that the User must enter their name.
   }
    let y = document.forms["myForm"]["PhoneNumber"].value;
   if (y == "") {
     alert("Phone Number must be filled out");
-    return false;// Validation fro Phone Number Variable.
+    return false;//Validation fro Phone Number Variable.
   }
   let z = document.forms["myForm"]["Email"].value;
   if (z == "") {
     alert("Email must be filled out");
-    return false;// Validation for email Variable.
+    return false;//Validation for email Variable.
   }
   let a = document.forms["myForm"]["Message"].value;
   if (a == "") {
     alert("Message must be filled out");
-    return false;// Validation for Message variable Variable.
+    return false;//Validation for Message variable Variable.
   }
 }
 </script>
 
 <title> ICS Mental Health</title> <!title of the tab>
-<link rel="icon" href="favicon1.ico"><! Icon i added for the Website>
+<link rel="icon" href="favicon1.ico"><!--Icon i added for the Website-->
 
 </head>
 
@@ -39,11 +39,11 @@
 
 <body>
 <div id="City"> <! first div which will be the header of the website>
-   <img class="logo" src="index.png" alt="Logo"> <! Logo for the website>
+   <img class="logo" src="index.png" alt="Logo"> <!--Logo for the website-->
 	<div class="dropdown"> <! first of 3 boxes for the header All are dropdowns that link to different parts of this website or to other websites. This is my navigation for the website>
 			<button class="dropbtn">This website </button>
 			<div class="dropdown-content">
-				<a href="#">Intro</a><! links to each section of the website for easy access>
+				<a href="#">Intro</a><!--links to each section of the website for easy access-->
 				<a href="#vid1">Video</a>
 				<a href="#gallery"> Gallery</a>
 				<a href="#form1">Form</a>
@@ -52,7 +52,7 @@
 	</div>
 	<div class="dropdown">
 			<button class="dropbtn"> Other resources</button>
-			<div class="dropdown-content"><! recources that people visiting the website may need to use if their mental health isnt good>
+			<div class="dropdown-content"><!--recources that people visiting the website may need to use if their mental health isnt good-->
 				<a href="https://www.mentalhealthireland.ie/"	target=”_blank”	>Mental Health Ireland</a>
 				<a href="https://www.pieta.ie/"	target=”_blank” >Pieta House</a>
 				<a href="https://www.mentalhealthireland.ie/need-help-now/"	target=”_blank”	>Urgent help</a>
@@ -63,7 +63,7 @@
 	<div class="dropdown">
 			<button class="dropbtn">Donate</button>
 		
-			<div class="dropdown-content"> <!Link to donate to the ICS. I put this in as it is close to home after my fight>
+			<div class="dropdown-content"> <!--Link to donate to the ICS. I put this in as it is close to home after my fight-->
 				<a href="https://www.cancer.ie/ways-to-help/donate/donate	"target=”_blank”	>Donate to ICS</a>
 			</div>
 			
@@ -71,14 +71,14 @@
 </div>
  <div class= "main">
 	<div class="stupid">
-	<h1>Intro</h1> <! this is the introduction to the website. From this introduction everything That was required and more can be seen. An image, The navigation, The logo of the site, the title along with an Icon and a paragraph describing the website to those who arrive on it.>
+	<h1>Intro</h1> <!--this is the introduction to the website. From this introduction everything That was required and more can be seen. An image, The navigation, The logo of the site, the title along with an Icon and a paragraph describing the website to those who arrive on it.-->
 	<! Introduction Paragraph>
 	<p class="maintxt"> Welcome to this website! This website is for people who have or people who are helping some one else through cancer. Or any ailment for that matter. It is Important for everyone to talk about their mental health. The video below really emphasises this point. Mental health is something that is being brought to the for forefront of society. People going through illness have a higher likelyhood to have a bad mental health. In fact 1/3 Cancer patients experience a mental health concern, during or after treatment. The link between cancer specifically and mental health has been sutdied alot and is well understood. In fact it raises the total healthcare cost by 45% for some one with a prolonged condition. This is a cost that the patient doesnt have to worry about in ireland because Cancer treatment is free for all citizens. This website is made to be an extension of the Irish cancer society's website and documents some tactics that can be used to help prevent a dip in mental health. The header includes quick links to the different sections of the website for easy navigation. It also has links to places that can help with a person suffering from a dip in mental health or a prolongued illness. The final section on the header has a link to donate to the ICS and help support cancer research and its patients. Below you can finde a video describing how important it is to talk about mental health. After this you'll find a gallery describing the activities previously mentioned, and finally a form to contact us about things that made your mental health better when going through a tough time. If you could fill this section out before leaving the website that would be much appreciated. Have a great day and try to enjoy it. </p>
 	</div>
-	<img class="happyimg" src="happy.jpg" alt="grill"><! first image required>
+	<img class="happyimg" src="happy.jpg" alt="grill"><!--first image required-->
   
   
-  <div id="vid1"> <! This is my 4th required section. I decided to go with a Video describing hwo important it is to talk about mental health>
+  <div id="vid1"> <!--This is my 4th required section. I decided to go with a Video describing hwo important it is to talk about mental health-->
    
   <video Width="1280" height="720"  controls>
   <source src="Vid.mp4" type="video/mp4">
@@ -92,16 +92,16 @@ document.getElementById("vidP").style.color = "blue";//Required manipulation of 
   
   <H2> Gallery for good mental health</H2>
   
-  <div id="gallery"> <! this is the gallery that was required and it has the show/hide functionality that was required. I found a work around for a problem i had before submitting. I hid the text behind the images so when they dissapear the description shows.>
+  <div id="gallery"> <!--this is the gallery that was required and it has the show/hide functionality that was required. I found a work around for a problem i had before submitting. I hid the text behind the images so when they dissapear the description shows.-->
   
 	<div class="galleryimg">
-	<img id="N1" src="g1.jpg" alt="n1"><!img In a box div>
+	<img id="N1" src="g1.jpg" alt="n1"><!--img In a box div-->
 	<p id="text1" >Having visits from family members, loved ones or friends can greatly help with ones mood and can only serve to benefit your mental health. Don't be afraid to ask someone to visit you if you feel like you want to see them or even just to talk to someone.</p>
-	<!Above is the text hidden in the box behind the image>
+	<!--Above is the text hidden in the box behind the image-->
 	</div> 
-	<button id="btn" onclick="showHide()">Show Activity</button><!button to Activate Java Show/hide feature>
+	<button id="btn" onclick="showHide()">Show Activity</button><!--button to Activate Java Show/hide feature-->
 	
-	<div class="galleryimg"> <! each of the Gallery Images uses the same type of function for the show/hide feature>
+	<div class="galleryimg"> <!--each of the Gallery Images uses the same type of function for the show/hide feature-->
 	<img id="N2" src="g2.jpg" alt="n2"><!Same as above picture>
 	<p id="text1" > In our modern world of technology it would be a shame if we didnt use it to our advantage to do some things we enjoy. Be it pleying some video games, Messaging friends or even just simply watching some youtube or a show. These things can all be very enjoyable and may serve to distract one from a bad slump or just waste some time in hospital.</p>
 	</div>
@@ -138,7 +138,7 @@ document.getElementById("vidP").style.color = "blue";//Required manipulation of 
 	
 	</div>
 	</div>
-<div id="form1"> <! this is the form that was required of the Website. Each Input has its own validation to ensure the user fills every field.>
+<div id="form1"> <!--this is the form that was required of the Website. Each Input has its own validation to ensure the user fills every field.-->
 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
   Name: <br><input type="text" name="fname"><br>
    <label for="Number"> Phone number: </label> <br>
@@ -148,13 +148,13 @@ document.getElementById("vidP").style.color = "blue";//Required manipulation of 
 	<label for="Message"> Message of how you feel:</label> <br>
 	<input type="text" id="Message" name="Message" value=""><br> <br>
 	
-  <input type="submit" value="Submit"> <! Submission for the form>
+  <input type="submit" value="Submit"> <!--Submission for the form-->
 </form>
 	
 	</div>
 	
 <div class="bottom">
-	  <p id="annoying"> Copyright 2021</p> <! this is the footer of the page it also Stays fixed the entire time.>
+	  <p id="annoying"> Copyright 2021</p> <!--this is the footer of the page it also Stays fixed the entire time.-->
 	  </div>
 	  
 	  <script>
