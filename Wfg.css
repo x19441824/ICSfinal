@@ -178,7 +178,7 @@ H1{
 	height:13%;/* Specifies div hieght*/
 }
 
-#text1{
+.text1{
 	position:relative;
 	font-size: 20px;
 }
